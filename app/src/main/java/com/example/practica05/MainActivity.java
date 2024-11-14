@@ -43,8 +43,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, Activity_Hamburguesas.class   );
+                String selectedItem = dropdownMenu.getSelectedItem().toString();
+                Bundle bundle = new Bundle();
+                bundle.putString("restaurant", selectedItem);
+                intent.putExtras (bundle);
                 startActivity(intent);
             }
+
+
+
         });
     }
 }
