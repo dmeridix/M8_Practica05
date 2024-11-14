@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         demana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Activity_Hamburguesas.class);
+                Intent intent = new Intent(MainActivity.this, Activity_Hamburguesas.class   );
                 startActivity(intent);
             }
         });
