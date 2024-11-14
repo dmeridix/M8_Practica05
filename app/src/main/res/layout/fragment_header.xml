@@ -12,13 +12,16 @@
         android:orientation="horizontal"
         android:divider="@android:color/black"
         android:showDividers="middle"
-        android:dividerPadding="4dp">
+        android:dividerPadding="4dp"
+        android:gravity="center">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="VICI" />
+            android:fontFamily="@font/oi"
+            android:text="@string/vici"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
     </LinearLayout>
 </FrameLayout>
