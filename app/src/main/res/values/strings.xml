@@ -2,4 +2,6 @@
     <string name="app_name">Practica05</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vici">VICI</string>
+    <string name="fet_per_pau_pedr_s_i_daniel_m_rida">Fet per Pau Pedrós i Daniel Mérida</string>
 </resources>

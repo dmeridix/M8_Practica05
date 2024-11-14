@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".FragmentBottom">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="#111D4A"
+        android:orientation="horizontal"
+        android:divider="@android:color/black"
+        android:showDividers="middle"
+        android:dividerPadding="4dp"
+        android:layout_gravity="bottom">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/fet_per_pau_pedr_s_i_daniel_m_rida" />
     </LinearLayout>
 </FrameLayout>
