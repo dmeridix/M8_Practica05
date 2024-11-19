@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Activity_Hamburguesas">
 
-    <!-- Header -->
     <fragment
         android:name="com.example.practica05.FragmentHeader"
         android:id="@+id/fragmentHeader"
