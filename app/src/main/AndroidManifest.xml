@@ -16,6 +16,9 @@
             android:name=".sigleBurger"
             android:exported="false" />
         <activity
+            android:name=".pago"
+            android:exported="false" />
+        <activity
             android:name=".Activity_Hamburguesas"
             android:exported="false" />
         <activity
