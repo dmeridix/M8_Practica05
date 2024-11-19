@@ -17,6 +17,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout="@layout/fragment_header" />
 
+    <fragment
+        android:name="com.example.practica05.back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentBack"
+        app:layout_constraintTop_toBottomOf="@id/fragmentHeader"
+        tools:layout="@layout/fragment_back"
+        />
+
     <TextView
         android:id="@+id/TextPasat"
         android:paddingTop="15dp"
@@ -26,7 +35,7 @@
         android:text="Single Burger"
         android:textStyle="bold"
         android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@id/fragmentHeader"
+        app:layout_constraintTop_toBottomOf="@id/fragmentBack"
         tools:ignore="MissingConstraints"/>
 
 
