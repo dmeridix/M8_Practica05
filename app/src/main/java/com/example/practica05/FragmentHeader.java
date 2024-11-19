@@ -1,5 +1,6 @@
 package com.example.practica05;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 public class FragmentHeader extends Fragment {
 
@@ -42,6 +44,18 @@ public class FragmentHeader extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_header, container, false);
+        View view = inflater.inflate(R.layout.fragment_header, container, false);
+
+        // Identificar el TextView
+        TextView textView = view.findViewById(R.id.textView);
+
+        // Establecer el OnClickListener
+        textView.setOnClickListener(v -> {
+            // Intent para redirigir a la MainActivity
+            Intent intent = new Intent(getActivity(), MainActivity.class);
+            startActivity(intent);
+        });
+
+        return view;
     }
 }
