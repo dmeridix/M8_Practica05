@@ -1,6 +1,9 @@
 package com.example.practica05;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -22,5 +25,14 @@ public class Activity_Hamburguesas extends AppCompatActivity {
         TextView text = findViewById(R.id.TextPasat);
         text.setText(restaurant);
 
+        LinearLayout burgers = findViewById(R.id.burgers);
+
+        burgers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Activity_Hamburguesas.this, sigleBurger.class);
+                startActivity(intent);
+            }
+        });
     }
 }
