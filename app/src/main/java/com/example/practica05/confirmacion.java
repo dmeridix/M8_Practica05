@@ -1,34 +1,41 @@
 package com.example.practica05;
 
-import android.content.Intent;
+import static kotlin.random.RandomKt.Random;
+
 import android.os.Bundle;
-import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import java.util.Random;
 
-public class pago extends AppCompatActivity {
+public class confirmacion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_pago);
+        setContentView(R.layout.activity_confirmacion);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
+        Random random = new Random();
+        int randomNumber = random.nextInt(10000 - 2000 + 1) + 2000;
 
-        Button btnConfirmPayment = findViewById(R.id.btn_confirm_payment);
+        TextView textView = findViewById(R.id.numcomanda);
+        // Comprobar si el TextView es nulo
+        if (textView != null) {
+            textView.setText("Comanda num #" + randomNumber);
+        } else {
+            // Manejar el error si el TextView no se encuentra
+            System.err.println("Error: TextView con ID 'numcomanda' no encontrado.");
+        }
 
-        btnConfirmPayment.setOnClickListener(v -> {
-            Intent intent = new Intent(pago.this, confirmacion.class);
-            startActivity(intent);
-        });
     }
 }
