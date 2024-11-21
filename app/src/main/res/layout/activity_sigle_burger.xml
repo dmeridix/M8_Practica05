@@ -18,6 +18,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout="@layout/fragment_header" />
 
+    <fragment
+        android:id="@+id/fragmentBack"
+        android:name="com.example.practica05.back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragmentHeader"
+        tools:layout="@layout/fragment_back" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
