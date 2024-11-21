@@ -25,12 +25,37 @@ public class Activity_Hamburguesas extends AppCompatActivity {
         TextView text = findViewById(R.id.TextPasat);
         text.setText(restaurant);
 
-        LinearLayout burgers = findViewById(R.id.burgers);
+        LinearLayout single = findViewById(R.id.layoutSingle);
+        LinearLayout cheese = findViewById(R.id.layoutCheese);
+        LinearLayout vici = findViewById(R.id.layoutVici);
+        LinearLayout bacon = findViewById(R.id.layoutBacon);
 
-        burgers.setOnClickListener(new View.OnClickListener() {
+        single.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Activity_Hamburguesas.this, sigleBurger.class);
+                startActivity(intent);
+            }
+        });
+        cheese.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Activity_Hamburguesas.this, ChesseBurguer.class);
+                startActivity(intent);
+            }
+        });
+        vici.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Activity_Hamburguesas.this, VICIOriginals.class);
+                startActivity(intent);
+            }
+        });
+
+        bacon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Activity_Hamburguesas.this, BaconCheeseburger.class);
                 startActivity(intent);
             }
         });
