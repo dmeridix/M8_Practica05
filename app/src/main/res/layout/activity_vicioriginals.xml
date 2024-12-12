@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VICI Originals"
+            android:text="@string/vici_originals"
             android:textStyle="bold"
             android:textSize="18sp"
             android:layout_marginBottom="4dp" />
@@ -55,7 +55,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Doble smash burger, enciam francès, tomàquet pera, cheddar i cogombrets."
+            android:text="@string/doble_smash_burger_enciam_franc_s_tom_quet_pera_cheddar_i_cogombrets"
             android:textColor="#666666"
             android:textSize="14sp"
             android:layout_marginBottom="16dp" />

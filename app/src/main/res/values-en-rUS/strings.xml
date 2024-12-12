@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Practice05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vici">VICI</string>
+    <string name="fet_per_pau_pedr_s_i_daniel_m_rida">Made by Pau Pedrós and Daniel Mérida</string>
+    <string name="una_patty_de_smash_burger_cheddar_cogombrets_qu_txup_i_mostassa">A smash burger patty, cheddar, pickles, ketchup, and mustard.</string>
+    <string name="single_burger">Single Burger</string>
+    <string name="_7_50">€7.50</string>
+    <string name="_11_90">€11.90</string>
+    <string name="doble_smash_burger_bacon_cruixent_cheddar_i_cogombrets">Double smash burger, crispy bacon, cheddar, and pickles.</string>
+    <string name="bacon_cheeseburger">Bacon Cheeseburger</string>
+    <string name="doble_smash_burger_enciam_franc_s_tom_quet_pera_cheddar_i_cogombrets">Double smash burger, French lettuce, pear tomato, cheddar, and pickles.</string>
+    <string name="vici_originals">VICI Originals</string>
+    <string name="_9_90">€9.90</string>
+    <string name="doble_smash_burger_cheddar_cogombrets_i_salsa_vicio_acompanyat_d_un_panet_de_brioix">Double smash burger, cheddar, pickles, and VICIO sauce accompanied by a brioche bun.</string>
+    <string name="cheeseburger">Cheeseburger</string>
+    <string name="la_teva_comanda_ha_estat_confirmada">Your order has been confirmed!</string>
+    <string name="escull_restaurant">Choose restaurant</string>
+    <string name="detalles_de_pago">Payment Details</string>
+    <string name="nombre_del_titular">Cardholder Name</string>
+    <string name="n_mero_de_tarjeta">Card Number</string>
+    <string name="mm">MM</string>
+    <string name="barra">/</string>
+    <string name="aa">YY</string>
+    <string name="cvv">CVV</string>
+    <string name="confirmar_pago">Confirm Payment</string>
+    <string name="comprar_ya">Buy now</string>
+
+    <string-array name="restaurants">
+        <item>Pg de Gràcia 50</item>
+        <item>C/ Pelai 38</item>
+        <item>C/ Gran Via 21</item>
+    </string-array>
+</resources>

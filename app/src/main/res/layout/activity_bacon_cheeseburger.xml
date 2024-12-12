@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Bacon Cheeseburger"
+            android:text="@string/bacon_cheeseburger"
             android:textStyle="bold"
             android:textSize="18sp"
             android:layout_marginBottom="4dp" />
@@ -55,7 +55,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Doble smash burger, bacon cruixent, cheddar i cogombrets."
+            android:text="@string/doble_smash_burger_bacon_cruixent_cheddar_i_cogombrets"
             android:textColor="#666666"
             android:textSize="14sp"
             android:layout_marginBottom="16dp" />

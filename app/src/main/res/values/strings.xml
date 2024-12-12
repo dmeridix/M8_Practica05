@@ -4,6 +4,28 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="vici">VICI</string>
     <string name="fet_per_pau_pedr_s_i_daniel_m_rida">Fet per Pau Pedrós i Daniel Mérida</string>
+    <string name="una_patty_de_smash_burger_cheddar_cogombrets_qu_txup_i_mostassa">Una patty de smash burger, cheddar, cogombrets, quètxup i mostassa.</string>
+    <string name="single_burger">Single Burger</string>
+    <string name="_7_50">7,50 €</string>
+    <string name="_11_90">11,90 €</string>
+    <string name="doble_smash_burger_bacon_cruixent_cheddar_i_cogombrets">Doble smash burger, bacon cruixent, cheddar i cogombrets.</string>
+    <string name="bacon_cheeseburger">Bacon Cheeseburger</string>
+    <string name="doble_smash_burger_enciam_franc_s_tom_quet_pera_cheddar_i_cogombrets">Doble smash burger, enciam francès, tomàquet pera, cheddar i cogombrets.</string>
+    <string name="vici_originals">VICI Originals</string>
+    <string name="_9_90">9,90 €</string>
+    <string name="doble_smash_burger_cheddar_cogombrets_i_salsa_vicio_acompanyat_d_un_panet_de_brioix">Doble smash burger, cheddar, cogombrets i salsa VICIO acompanyat d\'un panet de brioix.</string>
+    <string name="cheeseburger">Cheeseburger</string>
+    <string name="la_teva_comanda_ha_estat_confirmada">La teva comanda ha estat confirmada!</string>
+    <string name="escull_restaurant">Escull restaurant</string>
+    <string name="detalles_de_pago">Detalles de Pago</string>
+    <string name="nombre_del_titular">Nombre del Titular</string>
+    <string name="n_mero_de_tarjeta">Número de Tarjeta</string>
+    <string name="mm">MM</string>
+    <string name="barra">/</string>
+    <string name="aa">AA</string>
+    <string name="cvv">CVV</string>
+    <string name="confirmar_pago">Confirmar Pago</string>
+    <string name="comprar_ya">Comprar ya</string>
 
     <string-array name="restaurants">
         <item>Pg de Gràcia 50</item>

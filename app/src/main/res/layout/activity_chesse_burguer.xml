@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cheeseburger"
+            android:text="@string/cheeseburger"
             android:textStyle="bold"
             android:textSize="18sp"
             android:layout_marginBottom="4dp" />
@@ -55,7 +55,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Doble smash burger, cheddar, cogombrets i salsa VICIO acompanyat d'un panet de brioix."
+            android:text="@string/doble_smash_burger_cheddar_cogombrets_i_salsa_vicio_acompanyat_d_un_panet_de_brioix"
             android:textColor="#666666"
             android:textSize="14sp"
             android:layout_marginBottom="16dp" />
@@ -64,11 +64,8 @@
             android:id="@+id/button_comprar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FF0000"
-            android:text="Comprar ya"
-            android:textColor="#FFFFFF"
-            android:textStyle="bold"
-            android:layout_marginBottom="16dp" />
+            style="@style/EstiloBoton"
+            android:text="@string/comprar_ya" />
     </LinearLayout>
 
     <!-- Bottom Fragment -->

@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="15dp"
         android:paddingTop="15dp"
-        android:text="Single Burger"
+        android:text=""
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/fragmentBack"
@@ -67,14 +67,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Single Burger"
+                    android:text="@string/single_burger"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Una patty de smash burger, cheddar, cogombrets, quètxup i mostassa."
+                    android:text="@string/una_patty_de_smash_burger_cheddar_cogombrets_qu_txup_i_mostassa"
                     android:textColor="#666666"
                     android:textSize="14sp" />
 
@@ -82,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="7,50 €"
+                    android:text="@string/_7_50"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -115,14 +115,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Cheeseburger"
+                    android:text="@string/cheeseburger"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Doble smash burger, cheddar, cogombrets i salsa VICIO acompanyat d'un panet de brioix."
+                    android:text="@string/doble_smash_burger_cheddar_cogombrets_i_salsa_vicio_acompanyat_d_un_panet_de_brioix"
                     android:textColor="#666666"
                     android:textSize="14sp" />
 
@@ -130,7 +130,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="9,90 €"
+                    android:text="@string/_9_90"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -138,7 +138,6 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:contentDescription=""
                 android:src="@drawable/baseline_add_24" />
         </LinearLayout>
 
@@ -165,14 +164,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="VICI Originals"
+                    android:text="@string/vici_originals"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Doble smash burger, enciam francès, tomàquet pera, cheddar i cogombrets."
+                    android:text="@string/doble_smash_burger_enciam_franc_s_tom_quet_pera_cheddar_i_cogombrets"
                     android:textColor="#666666"
                     android:textSize="14sp" />
 
@@ -180,7 +179,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="11,90 €"
+                    android:text="@string/_11_90"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -214,14 +213,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bacon Cheeseburger"
+                    android:text="@string/bacon_cheeseburger"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Doble smash burger, bacon cruixent, cheddar i cogombrets."
+                    android:text="@string/doble_smash_burger_bacon_cruixent_cheddar_i_cogombrets"
                     android:textColor="#666666"
                     android:textSize="14sp" />
 
@@ -229,7 +228,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="11,90 €"
+                    android:text="@string/_11_90"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>

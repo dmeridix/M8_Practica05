@@ -48,7 +48,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Single Burger"
+            android:text="@string/single_burger"
             android:textStyle="bold"
             android:textSize="18sp"
             android:layout_marginBottom="4dp" />
@@ -56,7 +56,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Una patty de smash burger, cheddar, cogombrets, quètxup i mostassa."
+            android:text="@string/una_patty_de_smash_burger_cheddar_cogombrets_qu_txup_i_mostassa"
             android:textColor="#666666"
             android:textSize="14sp"
             android:layout_marginBottom="16dp" />
